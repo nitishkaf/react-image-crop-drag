@@ -1,0 +1,38 @@
+{
+  "name": "react-image-crop-drag",
+  "version": "1.0.3",
+  "description": "React component for draggable image crop view with vertical adjustment",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.22.15",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/react": "^18.2.0",
+    "rollup": "^2.79.1",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "crop",
+    "drag",
+    "poster"
+  ],
+  "author": "netsh.dev",
+  "license": "MIT"
+}
